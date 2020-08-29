@@ -31,6 +31,12 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rails_admin'
 gem 'devise'
 gem 'cancancan'
+gem 'carrierwave'
+gem 'rails_admin_rollincode'
+# Gem para gerar os pdfs
+gem 'prawn-rails'
+# Gem para gerar os gráficos
+gem 'gruff'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
