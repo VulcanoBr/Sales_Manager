@@ -1,4 +1,3 @@
-alert("teste");
 
 $(document).on('ready pjax:success', function() {
     handleActiveBase();

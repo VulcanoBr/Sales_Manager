@@ -17,3 +17,7 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 // require("rails_admin/custom/ui")
+
+import "../src/application.css";
+
+import "./flashMessages";
