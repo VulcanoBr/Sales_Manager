@@ -3,9 +3,9 @@
 @import "./form.css";
 
 body {
-  background-color: rgb(235, 225, 225);
+  background-color: white;
   font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  color: var(--color-gray-darker);
+  color: black;
 }
 
 main {
@@ -17,7 +17,7 @@ main {
 }
 
 .hero {
-  background-color: white;
+  
   border: none;
   border-radius: 3px;
   padding: 2rem;
@@ -34,23 +34,29 @@ main {
 }
 
 .hero h2 {
-  color: Red;
+  color: ´black;
   font-weight: normal;
   text-align: center;
 }
 
 .hero .help-links {
-  margin-top: 2rem;
+  margin-top: 5rem;
   border-top: 1px solid var(--color-gray-lighter);
-  padding-top: 1rem;
+  padding-top: 5rem;
   text-align: center;
 }
 
 .hero .help-links a {
   display: block;
-  margin-top: 0.25rem;
+  margin-top: 1rem;
   text-decoration: none;
   color: var(--color-blue);
   font-weight: bold;
   font-size: 14px;
 }
+
+.link {
+  margin-top: 1rem;
+  font-style: italic;
+}
+
