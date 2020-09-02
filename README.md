@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+App desenvolvido em Ruby com framework Ruby on Rails, utilizando devise, rails_admin, cancancan, carrierwave, admin rollincode.
+App para registrar clientes, produtos, discontos, vendas, usuarios; exportar para PDF, fazer upload de fotos, e gerar graficos.
+App tem o objetivo de acompanhar, gerenciar e registrar vendas.
